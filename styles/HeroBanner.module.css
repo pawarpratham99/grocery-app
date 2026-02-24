@@ -1,0 +1,197 @@
+.hero {
+  padding: 0 24px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mainBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+  border-radius: 20px;
+  padding: 48px;
+  margin-top: 24px;
+  gap: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bannerContent {
+  flex: 1;
+}
+
+.badge {
+  display: inline-block;
+  background: #00c853;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #aab4c8;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.bannerActions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.shopBtn {
+  padding: 12px 28px;
+  background: #00c853;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: inherit;
+  transition: transform 0.2s;
+}
+
+.shopBtn:hover {
+  transform: translateY(-2px);
+}
+
+.offerBtn {
+  padding: 12px 28px;
+  background: transparent;
+  border: 1.5px solid rgba(255,255,255,0.3);
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.offerBtn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.stats {
+  display: flex;
+  gap: 32px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.statNum {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: white;
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  color: #aab4c8;
+}
+
+.bannerImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageCircle {
+  width: 280px;
+  height: 280px;
+  background: rgba(255,255,255,0.07);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.bigEmoji {
+  font-size: 6rem;
+}
+
+.floatingBadge1,
+.floatingBadge2,
+.floatingBadge3 {
+  position: absolute;
+  background: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.floatingBadge1 { top: 20px; right: -10px; }
+.floatingBadge2 { bottom: 40px; right: -20px; }
+.floatingBadge3 { bottom: 20px; left: -10px; }
+
+/* Offer Strip */
+.offerStrip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.offerCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  padding: 16px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.offerEmoji {
+  font-size: 1.8rem;
+}
+
+.offerTitle {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.offerSub {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .mainBanner {
+    flex-direction: column;
+    padding: 28px;
+    text-align: center;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .bannerImage {
+    display: none;
+  }
+  .stats {
+    justify-content: center;
+  }
+  .offerStrip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
