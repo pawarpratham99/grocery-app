@@ -137,3 +137,8 @@
     width: 100%;
   }
 }
+.activeLink {
+  color: #1a1a2e !important;
+  border-bottom: 3px solid #00c853 !important;
+  font-weight: 800 !important;
+}

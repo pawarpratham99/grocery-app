@@ -1,6 +1,10 @@
 import styles from '../styles/Header.module.css';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Header() {
+  const router = useRouter();
+
   return (
     <header className={styles.header}>
 
@@ -8,11 +12,11 @@ export default function Header() {
       <div className={styles.topBar}>
 
         {/* Logo */}
-        <div className={styles.logo}>
+        <Link href="/" className={styles.logo}>
           <span>🛒</span>
           <span className={styles.logoText}>FreshCart</span>
           <span className={styles.logoTag}>10-min delivery</span>
-        </div>
+        </Link>
 
         {/* Location */}
         <div className={styles.location}>
@@ -39,7 +43,12 @@ export default function Header() {
 
       {/* Navigation Bar */}
       <nav className={styles.navBar}>
-        <a href="#">🏠 Home</a>
+        <Link href="/" className={router.pathname === '/' ? styles.activeLink : ''}>
+          🏠 Home
+        </Link>
+        <Link href="/about" className={router.pathname === '/about' ? styles.activeLink : ''}>
+          ℹ️ About
+        </Link>
         <a href="#">🥦 Vegetables</a>
         <a href="#">🥛 Dairy & Eggs</a>
         <a href="#">🍪 Snacks</a>
