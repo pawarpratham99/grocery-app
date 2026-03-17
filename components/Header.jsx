@@ -49,6 +49,9 @@ export default function Header() {
         <Link href="/about" className={router.pathname === '/about' ? styles.activeLink : ''}>
           ℹ️ About
         </Link>
+        <Link href="/products" className={router.pathname.startsWith('/products') ? styles.activeLink : ''}>
+  🛍️ Products
+</Link>
         <a href="#">🥦 Vegetables</a>
         <a href="#">🥛 Dairy & Eggs</a>
         <a href="#">🍪 Snacks</a>
