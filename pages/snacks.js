@@ -1,19 +1,19 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import styles from '../../styles/Products.module.css';
+import styles from '../styles/Products.module.css';
 
-export default function ProductsPage({ products }) {
+export default function SnacksPage({ products }) {
   return (
     <>
       <Head>
-        <title>All Products - FreshCart</title>
+        <title>Snacks - FreshCart</title>
       </Head>
 
       <div className={styles.page}>
 
         <div className={styles.pageHeader}>
-          <h1>🛍️ All Products</h1>
-          <p>Showing {products.length} fresh products — delivered in 10 mins</p>
+          <h1>🍟 Snacks</h1>
+          <p>Showing {products.length} tasty snacks — delivered in 10 mins</p>
         </div>
 
         <div className={styles.grid}>
@@ -63,10 +63,11 @@ export default function ProductsPage({ products }) {
 
 // SSR - runs on every request on the server
 export async function getServerSideProps() {
-const fs = require('fs');
-const path = require('path');
-const productsPath = path.join(process.cwd(), 'data', 'Products.json');
-const products = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
+  const fs = require('fs');
+  const path = require('path');
+  const productsPath = path.join(process.cwd(), 'data', 'Products.json');
+  const allProducts = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
+  const products = allProducts.filter(p => p.category === 'Snacks');
 
   return {
     props: {
@@ -74,3 +75,4 @@ const products = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
     },
   };
 }
+

@@ -89,7 +89,10 @@ export default function ProductDetail({ product }) {
 
 // SSR - fetches individual product by ID
 export async function getServerSideProps({ params }) {
-  const products = require('../../data/products.json');
+const fs = require('fs');
+const path = require('path');
+const productsPath = path.join(process.cwd(), 'data', 'Products.json');
+const products = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
   const product = products.find((p) => p.id === parseInt(params.id));
 
   // If product not found redirect to products page

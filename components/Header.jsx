@@ -52,9 +52,16 @@ export default function Header() {
         <Link href="/products" className={router.pathname.startsWith('/products') ? styles.activeLink : ''}>
   🛍️ Products
 </Link>
-        <a href="#">🥦 Vegetables</a>
-        <a href="#">🥛 Dairy & Eggs</a>
-        <a href="#">🍪 Snacks</a>
+<Link href="/vegetables" className={router.pathname.startsWith('/vegetables') ? styles.activeLink : ''}>
+  🥦 Vegetables
+</Link>
+<Link href="/dairy-and-eggs" className={router.pathname.startsWith('/dairy-and-eggs') ? styles.activeLink : ''}>
+  🥛 Dairy and Eggs
+</Link>
+<Link href="/snacks" className={router.pathname.startsWith('/snacks') ? styles.activeLink : ''}>
+  🍪 Snacks
+</Link>
+ 
         <a href="#">🧴 Personal Care</a>
         <a href="#">🧹 Household</a>
         <a href="#" className={styles.dealLink}>⚡ Today's Deals</a>
