@@ -10,12 +10,8 @@
     "inStock": true,
     "rating": 4.5,
     "reviews": 128,
-    "description": "Fresh, ripe tomatoes sourced directly from local farms. Perfect for curries, salads and cooking.",
-    "tags": [
-      "fresh",
-      "local",
-      "organic"
-    ]
+    "description": "Fresh, ripe tomatoes sourced directly from local farms.",
+    "tags": ["fresh", "local", "organic"]
   },
   {
     "id": 2,
@@ -28,12 +24,8 @@
     "inStock": true,
     "rating": 4.8,
     "reviews": 340,
-    "description": "Amul full cream milk, pasteurized and homogenized. Rich in calcium and protein.",
-    "tags": [
-      "dairy",
-      "amul",
-      "daily"
-    ]
+    "description": "Amul full cream milk, pasteurized and homogenized.",
+    "tags": ["dairy", "amul", "daily"]
   },
   {
     "id": 3,
@@ -46,12 +38,8 @@
     "inStock": true,
     "rating": 4.3,
     "reviews": 95,
-    "description": "Fresh yellow bananas, rich in potassium and natural energy. Great for breakfast.",
-    "tags": [
-      "fresh",
-      "fruit",
-      "healthy"
-    ]
+    "description": "Fresh yellow bananas, rich in potassium and natural energy.",
+    "tags": ["fresh", "fruit", "healthy"]
   },
   {
     "id": 4,
@@ -64,12 +52,8 @@
     "inStock": true,
     "rating": 4.2,
     "reviews": 76,
-    "description": "Freshly baked whole wheat bread, high in fiber. No preservatives added.",
-    "tags": [
-      "bakery",
-      "healthy",
-      "breakfast"
-    ]
+    "description": "Freshly baked whole wheat bread, high in fiber.",
+    "tags": ["bakery", "healthy", "breakfast"]
   },
   {
     "id": 5,
@@ -82,12 +66,8 @@
     "inStock": true,
     "rating": 4.6,
     "reviews": 210,
-    "description": "Farm fresh eggs, rich in protein. Sourced from free-range hens.",
-    "tags": [
-      "protein",
-      "fresh",
-      "daily"
-    ]
+    "description": "Farm fresh eggs, rich in protein.",
+    "tags": ["protein", "fresh", "daily"]
   },
   {
     "id": 6,
@@ -100,12 +80,8 @@
     "inStock": true,
     "rating": 4.1,
     "reviews": 55,
-    "description": "Fresh red onions, essential for Indian cooking. Sourced from Nashik farms.",
-    "tags": [
-      "fresh",
-      "local",
-      "essential"
-    ]
+    "description": "Fresh red onions, essential for Indian cooking.",
+    "tags": ["fresh", "local", "essential"]
   },
   {
     "id": 7,
@@ -118,12 +94,8 @@
     "inStock": false,
     "rating": 4.4,
     "reviews": 180,
-    "description": "Classic salted potato chips by Lays. Light, crispy and delicious snack.",
-    "tags": [
-      "snack",
-      "chips",
-      "lays"
-    ]
+    "description": "Classic salted potato chips by Lays.",
+    "tags": ["snack", "chips", "lays"]
   },
   {
     "id": 8,
@@ -136,45 +108,7 @@
     "inStock": true,
     "rating": 4.5,
     "reviews": 88,
-    "description": "Fresh green spinach, rich in iron and vitamins. Perfect for palak paneer.",
-    "tags": [
-      "fresh",
-      "healthy",
-      "green"
-    ]
-  },
-  {
-    "id": 1774101716302,
-    "name": "Chocolate Cookies",
-    "price": 50,
-    "originalPrice": 60,
-    "category": "Snacks",
-    "emoji": "🍪",
-    "unit": "1 pack",
-    "rating": 4.5,
-    "reviews": 20,
-    "description": "Tasty cookies",
-    "tags": [
-      "sweet",
-      "snack"
-    ],
-    "inStock": true
-  },
-  {
-    "id": 1774101895885,
-    "name": "Fresh Broccoli",
-    "price": 40,
-    "originalPrice": 55,
-    "category": "Vegetables",
-    "emoji": "🥦",
-    "unit": "500g",
-    "rating": 4.3,
-    "reviews": 18,
-    "description": "Fresh green broccoli rich in vitamins",
-    "tags": [
-      "healthy",
-      "green"
-    ],
-    "inStock": true
+    "description": "Fresh green spinach, rich in iron and vitamins.",
+    "tags": ["fresh", "healthy", "green"]
   }
 ]

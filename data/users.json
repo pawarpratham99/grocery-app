@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Sharma",
+    "email": "rahul@gmail.com",
+    "phone": "9876543210",
+    "role": "admin",
+    "active": true,
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "name": "Priya Patel",
+    "email": "priya@gmail.com",
+    "phone": "9876543211",
+    "role": "customer",
+    "active": true,
+    "createdAt": "2024-02-20"
+  },
+  {
+    "id": 3,
+    "name": "Amit Singh",
+    "email": "amit@gmail.com",
+    "phone": "9876543212",
+    "role": "delivery_agent",
+    "active": true,
+    "createdAt": "2024-03-10"
+  },
+  {
+    "id": 4,
+    "name": "Sneha Mehta",
+    "email": "sneha@gmail.com",
+    "phone": "9876543213",
+    "role": "customer",
+    "active": false,
+    "createdAt": "2024-04-05"
+  },
+  {
+    "id": 5,
+    "name": "Ravi Kumar",
+    "email": "ravi@gmail.com",
+    "phone": "9876543214",
+    "role": "delivery_agent",
+    "active": true,
+    "createdAt": "2024-05-18"
+  }
+]
