@@ -11,7 +11,11 @@
     "rating": 4.5,
     "reviews": 128,
     "description": "Fresh, ripe tomatoes sourced directly from local farms.",
-    "tags": ["fresh", "local", "organic"]
+    "tags": [
+      "fresh",
+      "local",
+      "organic"
+    ]
   },
   {
     "id": 2,
@@ -25,7 +29,11 @@
     "rating": 4.8,
     "reviews": 340,
     "description": "Amul full cream milk, pasteurized and homogenized.",
-    "tags": ["dairy", "amul", "daily"]
+    "tags": [
+      "dairy",
+      "amul",
+      "daily"
+    ]
   },
   {
     "id": 3,
@@ -39,7 +47,11 @@
     "rating": 4.3,
     "reviews": 95,
     "description": "Fresh yellow bananas, rich in potassium and natural energy.",
-    "tags": ["fresh", "fruit", "healthy"]
+    "tags": [
+      "fresh",
+      "fruit",
+      "healthy"
+    ]
   },
   {
     "id": 4,
@@ -53,7 +65,11 @@
     "rating": 4.2,
     "reviews": 76,
     "description": "Freshly baked whole wheat bread, high in fiber.",
-    "tags": ["bakery", "healthy", "breakfast"]
+    "tags": [
+      "bakery",
+      "healthy",
+      "breakfast"
+    ]
   },
   {
     "id": 5,
@@ -67,7 +83,11 @@
     "rating": 4.6,
     "reviews": 210,
     "description": "Farm fresh eggs, rich in protein.",
-    "tags": ["protein", "fresh", "daily"]
+    "tags": [
+      "protein",
+      "fresh",
+      "daily"
+    ]
   },
   {
     "id": 6,
@@ -81,7 +101,11 @@
     "rating": 4.1,
     "reviews": 55,
     "description": "Fresh red onions, essential for Indian cooking.",
-    "tags": ["fresh", "local", "essential"]
+    "tags": [
+      "fresh",
+      "local",
+      "essential"
+    ]
   },
   {
     "id": 7,
@@ -95,7 +119,11 @@
     "rating": 4.4,
     "reviews": 180,
     "description": "Classic salted potato chips by Lays.",
-    "tags": ["snack", "chips", "lays"]
+    "tags": [
+      "snack",
+      "chips",
+      "lays"
+    ]
   },
   {
     "id": 8,
@@ -109,6 +137,52 @@
     "rating": 4.5,
     "reviews": 88,
     "description": "Fresh green spinach, rich in iron and vitamins.",
-    "tags": ["fresh", "healthy", "green"]
+    "tags": [
+      "fresh",
+      "healthy",
+      "green"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Organic Tomatoes",
+    "category": "Vegetables",
+    "price": 40,
+    "originalPrice": 40,
+    "unit": "1 kg",
+    "emoji": "🍅",
+    "inStock": true,
+    "rating": 0,
+    "reviews": 0,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 10,
+    "name": "Cheddar Cheese",
+    "category": "Dairy & Eggs",
+    "price": 150,
+    "originalPrice": 150,
+    "unit": "200 g",
+    "emoji": "🧀",
+    "inStock": true,
+    "rating": 0,
+    "reviews": 0,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 11,
+    "name": "Lays Classic",
+    "category": "Snacks",
+    "price": 20,
+    "originalPrice": 20,
+    "unit": "50 g",
+    "emoji": "🥔",
+    "inStock": true,
+    "rating": 0,
+    "reviews": 0,
+    "description": "",
+    "tags": []
   }
 ]

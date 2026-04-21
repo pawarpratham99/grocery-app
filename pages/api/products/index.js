@@ -1,9 +1,12 @@
 import fs from 'fs';
 import path from 'path';
 
+function getProductsPath() {
+  return path.join(process.cwd(), 'data', 'Products.json');
+}
+
 function getProducts() {
-  const filePath = path.join(process.cwd(), 'data', 'products.json');
-  const data = fs.readFileSync(filePath, 'utf8');
+  const data = fs.readFileSync(getProductsPath(), 'utf8');
   return JSON.parse(data);
 }
 
@@ -50,6 +53,9 @@ export default function handler(req, res) {
     };
 
     productList.push(newProduct);
+    
+    // Save the updated list back to the file
+    fs.writeFileSync(getProductsPath(), JSON.stringify(productList, null, 2));
 
     return res.status(201).json({
       success: true,
